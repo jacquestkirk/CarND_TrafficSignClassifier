@@ -1,3 +1,9 @@
+#Hi Grader
+My writeup is here
+(https://github.com/jacquestkirk/CarND_TrafficSignClassifier/blob/master/writeup_template.md)
+
+---
+
 ## Project: Build a Traffic Sign Recognition Program
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
