@@ -209,7 +209,7 @@ I added borders to the images as necessary since the images in the training set 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|--------------------|---------------------------------------------| 
 | 8) 120km/h     		| 8) 120km/h     								| 
 | 2) 50km/h  			| 2) 50km/h										|
 | 22) Bumpy road		| 29) Bicycles Crossing							|
@@ -225,8 +225,9 @@ The code for making predictions on my final model is located in Step 3 of the Ip
 
 ### Image1: 120km/h
 The neural network chose the correct class and was very sure about it. All the top suggestions are other speed limit signs. It handles the skew fine. 
+
 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|---------------------|---------------------------------------------| 
 | 99.97         			| **8) 120km/h**    									| 
 | 0.03     				| 4) 70km/h 										|
 | 0					| 7) 100km/h											|
@@ -235,8 +236,9 @@ The neural network chose the correct class and was very sure about it. All the t
 
 ### Image2: 50km/h 
 The neural network chose the correct class and was very sure about it. All the top suggestions are other speed limit signs. 
+
 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|---------------------|---------------------------------------------| 
 | 100        			| **2) 50km/h**    									| 
 | 0    				| 5) 80km/h 										|
 | 0					| 1) 30km/h											|
@@ -245,8 +247,9 @@ The neural network chose the correct class and was very sure about it. All the t
 
 ### Image3: Bumpy road
 The network is unsure about the class and chooses incorrectly. The top selection is another red triangle with some black stuff in the middle. Besides the 60km/h sign, all the other top suggestions are red boardered triangles.
+
 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|---------------------|---------------------------------------------| 
 | 54.9        			| 29) Pedestrians   									| 
 | 14.3     				| **22) Bumpy road**  										|
 | 9.5					| 3) 60km/h	 											|
@@ -255,8 +258,9 @@ The network is unsure about the class and chooses incorrectly. The top selection
 
 ### Image4: End no passing
 The network is unsure about the class and chooses incorrectly. The correct choice is very close in probability to the first choice. And at the image's angle and pixelation, it is very easy for even a human to misclassify this one. Besides 12, all the remaing top ranked classes are circles with a slash through them. 
+
 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|---------------------|---------------------------------------------| 
 | 34.7         			| 32) End of all speed and passing limits   									| 
 | 32.7     				| **41) End no passing**  										|
 | 15.7					| 12) Priority road											|
@@ -265,8 +269,9 @@ The network is unsure about the class and chooses incorrectly. The correct choic
 
 ### Image5: Turn right ahead
 The neural network chose the correct class and was very sure about it. All the top suggestions are blue circles
+
 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|---------------------|---------------------------------------------| 
 | 100        			| **33) Turn right ahead**    									| 
 | 0    				| 40) Roundabout mandatory 										|
 | 0					| 39) Keep left											|
